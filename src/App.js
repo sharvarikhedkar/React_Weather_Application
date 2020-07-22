@@ -49,7 +49,7 @@ function App() {
           <input 
             type="text"
             className="search-bar"
-            placeholder="search..." 
+            placeholder="Enter City Name to get temperature" 
             onChange={e=>setQuery(e.target.value)}
             value={query}
             onKeyPress={search}/>
